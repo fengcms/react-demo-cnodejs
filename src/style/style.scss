@@ -1,0 +1,6 @@
+//$res: "/erjimulu/image/"; // 打包时用此路径
+$res: "/image/"; // 本地开发是用此路径
+
+.use_bg_img {
+  width: 500px;height: 500px;background: url($res + 'react.jpg') 0 0;
+}
